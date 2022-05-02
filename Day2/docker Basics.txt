@@ -6,3 +6,5 @@ docker stop <cotainer id/name> ->  Will stop the container
 docker images --> to display all images & their sizes
 docker rmi <image_name> ->  will remove the images (Note: Ensure no container running this image)
 docker pull <image>  -> to pull the image from hub
+docker run -d <image> -> Runs the container in  detach mode i.e. runs in background
+docker run <image> sleep 100  -> Wont stop the container till the given time expires
