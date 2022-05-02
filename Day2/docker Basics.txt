@@ -1,0 +1,8 @@
+docker version --> to get the docker version
+docker run  -> Run a container from an image. if the image is not available. It will pull from docker hub (for the first time)
+docker ps -> display all running containers
+docker ps -a -> will display the previously stopped/exited container information
+docker stop <cotainer id/name> ->  Will stop the container 
+docker images --> to display all images & their sizes
+docker rmi <image_name> ->  will remove the images (Note: Ensure no container running this image)
+docker pull <image>  -> to pull the image from hub
