@@ -1,0 +1,9 @@
+docker pull <image> -> will pull the image from default library repository 
+docker rm <container_id> -> will remove the continer from history
+docker exec <container_id> <command> -> will execute the command in the specified container
+docker pull <image>:<tag> -> tag is optional and default is 'latest'
+docker run -i <image> -> i for interactive mode
+docker run -p <available_port_in_host>:<port_to_be_mapped_from_container> <image>  -> port mapping b/w docker host and container 
+docker run -v <dir_in_docker_host>:<dir_in_docker_container> -> will map the directory of host with container directory 
+docker inspect <containerid/name> --> will display the additional details of the container  in JSON format 
+docker logs <containerid/name>  -> will display the logs from the container
