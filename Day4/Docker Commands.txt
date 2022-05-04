@@ -1,1 +1,4 @@
 docker history <image> --> will provide the history of the image
+docker push <image> -> will push the image to docker hub
+docker build -t=<accountname/image_name> . -> will build the docker image from DockerFile
+docker -e <environment_variable=value> <image_name>
